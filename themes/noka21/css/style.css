@@ -46,7 +46,7 @@ body {
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 2em 2em 2em 0;
 }
 
 @media (max-width: 767px) {
@@ -57,7 +57,7 @@ body {
         min-width: 50%;
     }
     .logo {
-        max-width: 30%;
+        max-width: 20%;
     }
 }
 
@@ -104,10 +104,21 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
 }
-
-img {
-    max-width: 100%;
+img{
+    width: 5em;
+    height: 5em;
 }
+
+.flash-img{
+   
+    display: block; margin-left: auto; margin-right: auto ;
+    width: 85%;
+    height: 40%
+}
+.small{
+    width: 20%;
+    height: 20%;
+    display: block; margin-left: auto; margin-right: auto }
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
 
