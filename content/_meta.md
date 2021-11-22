@@ -4,6 +4,6 @@ Tagline: Learn design
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/noka21/design-v3
-      icon: github
+      icon: fab fa-github
       
 ---

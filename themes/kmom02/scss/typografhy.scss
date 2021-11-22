@@ -1,0 +1,39 @@
+* {
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: $font-weight-header;*/
+    color: $font-color;
+}
+
+html {
+    font-size: 100%;
+
+
+}
+
+p {
+    font-size: $main-font-size;
+    margin-bottom: $magic-number;
+    /* font-weight: $font-weight-paragrph;
+    color: $font-color;
+    width: 64rem;
+    line-height: 1.3;
+    letter-spacing: 1px;*/
+
+}
+
+@media(min-width:64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
